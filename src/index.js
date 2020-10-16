@@ -8,7 +8,6 @@ const GAME_HEIGHT = 600;
 let lastTime = 0;
 
 let game = new Game(GAME_WIDTH, GAME_HEIGHT);
-game.start();
 
 function gameLoop(timestamp) { //runs every frame
     let deltaTime = timestamp - lastTime;//calculate how much time has passed

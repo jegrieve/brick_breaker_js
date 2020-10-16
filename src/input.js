@@ -11,8 +11,11 @@ export default class InputHandler {
                     paddle.moveRight();
                     break;
                 case 27:
-                        game.togglePause();
-                        break;
+                    game.togglePause();
+                    break;
+                case 32:
+                    game.start();
+                    break;
             };
         });
 
